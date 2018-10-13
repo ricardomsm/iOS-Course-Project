@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		480E7561215913B000DDA4BC /* Match.m in Sources */ = {isa = PBXBuildFile; fileRef = 480E7560215913B000DDA4BC /* Match.m */; };
+		481965EA215E425400993AF1 /* FavouritesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 481965E9215E425400993AF1 /* FavouritesManager.m */; };
+		481965EB215E59A200993AF1 /* Favourites.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 481965E5215E32D100993AF1 /* Favourites.xcdatamodeld */; };
+		4839232F215BF45E00FFB5EE /* StandingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4839232E215BF45E00FFB5EE /* StandingTableViewCell.m */; };
+		48DB19A7215BE8DC003A2BDE /* CompetitionStandingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DB19A6215BE8DC003A2BDE /* CompetitionStandingsTableViewController.m */; };
+		48DB19AA215BF2ED003A2BDE /* CompetitionTableStanding.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DB19A9215BF2ED003A2BDE /* CompetitionTableStanding.m */; };
+		8B4749D8215656F50092C9DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4749D7215656F50092C9DA /* AppDelegate.m */; };
+		8B4749DE215656F50092C9DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B4749DC215656F50092C9DA /* Main.storyboard */; };
+		8B4749E0215656F50092C9DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B4749DF215656F50092C9DA /* Assets.xcassets */; };
+		8B4749E3215656F50092C9DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B4749E1215656F50092C9DA /* LaunchScreen.storyboard */; };
+		8B4749E6215656F50092C9DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4749E5215656F50092C9DA /* main.m */; };
+		8B4749F521567E5C0092C9DA /* MatchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4749F421567E5C0092C9DA /* MatchTableViewCell.m */; };
+		8B4749F8215681B60092C9DA /* FootballMatchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4749F7215681B60092C9DA /* FootballMatchesViewController.m */; };
+		8B4749FB215686AD0092C9DA /* FootballMatchesAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4749FA215686AD0092C9DA /* FootballMatchesAPI.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		480E755F215913B000DDA4BC /* Match.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Match.h; sourceTree = "<group>"; };
+		480E7560215913B000DDA4BC /* Match.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Match.m; sourceTree = "<group>"; };
+		481965E6215E32D100993AF1 /* Favourites.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Favourites.xcdatamodel; sourceTree = "<group>"; };
+		481965E8215E425400993AF1 /* FavouritesManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FavouritesManager.h; sourceTree = "<group>"; };
+		481965E9215E425400993AF1 /* FavouritesManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavouritesManager.m; sourceTree = "<group>"; };
+		4839232D215BF45E00FFB5EE /* StandingTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StandingTableViewCell.h; sourceTree = "<group>"; };
+		4839232E215BF45E00FFB5EE /* StandingTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StandingTableViewCell.m; sourceTree = "<group>"; };
+		48DB19A5215BE8DC003A2BDE /* CompetitionStandingsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompetitionStandingsTableViewController.h; sourceTree = "<group>"; };
+		48DB19A6215BE8DC003A2BDE /* CompetitionStandingsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompetitionStandingsTableViewController.m; sourceTree = "<group>"; };
+		48DB19A8215BF2ED003A2BDE /* CompetitionTableStanding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompetitionTableStanding.h; sourceTree = "<group>"; };
+		48DB19A9215BF2ED003A2BDE /* CompetitionTableStanding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompetitionTableStanding.m; sourceTree = "<group>"; };
+		8B4749D3215656F50092C9DA /* Football Matches Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Football Matches Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4749D6215656F50092C9DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B4749D7215656F50092C9DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8B4749DD215656F50092C9DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B4749DF215656F50092C9DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B4749E2215656F50092C9DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B4749E4215656F50092C9DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B4749E5215656F50092C9DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B4749F321567E5C0092C9DA /* MatchTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatchTableViewCell.h; sourceTree = "<group>"; };
+		8B4749F421567E5C0092C9DA /* MatchTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchTableViewCell.m; sourceTree = "<group>"; };
+		8B4749F6215681B60092C9DA /* FootballMatchesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FootballMatchesViewController.h; sourceTree = "<group>"; };
+		8B4749F7215681B60092C9DA /* FootballMatchesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FootballMatchesViewController.m; sourceTree = "<group>"; };
+		8B4749F9215686AD0092C9DA /* FootballMatchesAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FootballMatchesAPI.h; sourceTree = "<group>"; };
+		8B4749FA215686AD0092C9DA /* FootballMatchesAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FootballMatchesAPI.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B4749D0215656F40092C9DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B4749CA215656F40092C9DA = {
+			isa = PBXGroup;
+			children = (
+				8B4749D5215656F50092C9DA /* Football Matches Project */,
+				8B4749D4215656F50092C9DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B4749D4215656F50092C9DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B4749D3215656F50092C9DA /* Football Matches Project.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B4749D5215656F50092C9DA /* Football Matches Project */ = {
+			isa = PBXGroup;
+			children = (
+				8B4749D6215656F50092C9DA /* AppDelegate.h */,
+				8B4749D7215656F50092C9DA /* AppDelegate.m */,
+				8B4749F021565B140092C9DA /* Model */,
+				8B4749F121565B340092C9DA /* Views */,
+				8B4749EF21565B060092C9DA /* Controllers */,
+				8B4749F221565B510092C9DA /* Supporting files */,
+				8B4749E4215656F50092C9DA /* Info.plist */,
+				8B4749E5215656F50092C9DA /* main.m */,
+			);
+			path = "Football Matches Project";
+			sourceTree = "<group>";
+		};
+		8B4749EF21565B060092C9DA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B4749F6215681B60092C9DA /* FootballMatchesViewController.h */,
+				8B4749F7215681B60092C9DA /* FootballMatchesViewController.m */,
+				48DB19A5215BE8DC003A2BDE /* CompetitionStandingsTableViewController.h */,
+				48DB19A6215BE8DC003A2BDE /* CompetitionStandingsTableViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8B4749F021565B140092C9DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B4749F9215686AD0092C9DA /* FootballMatchesAPI.h */,
+				8B4749FA215686AD0092C9DA /* FootballMatchesAPI.m */,
+				480E755F215913B000DDA4BC /* Match.h */,
+				480E7560215913B000DDA4BC /* Match.m */,
+				48DB19A8215BF2ED003A2BDE /* CompetitionTableStanding.h */,
+				48DB19A9215BF2ED003A2BDE /* CompetitionTableStanding.m */,
+				481965E8215E425400993AF1 /* FavouritesManager.h */,
+				481965E9215E425400993AF1 /* FavouritesManager.m */,
+				481965E5215E32D100993AF1 /* Favourites.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8B4749F121565B340092C9DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B4749DC215656F50092C9DA /* Main.storyboard */,
+				8B4749F321567E5C0092C9DA /* MatchTableViewCell.h */,
+				8B4749F421567E5C0092C9DA /* MatchTableViewCell.m */,
+				4839232D215BF45E00FFB5EE /* StandingTableViewCell.h */,
+				4839232E215BF45E00FFB5EE /* StandingTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8B4749F221565B510092C9DA /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				8B4749DF215656F50092C9DA /* Assets.xcassets */,
+				8B4749E1215656F50092C9DA /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B4749D2215656F40092C9DA /* Football Matches Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B4749E9215656F50092C9DA /* Build configuration list for PBXNativeTarget "Football Matches Project" */;
+			buildPhases = (
+				8B4749CF215656F40092C9DA /* Sources */,
+				8B4749D0215656F40092C9DA /* Frameworks */,
+				8B4749D1215656F40092C9DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Football Matches Project";
+			productName = "Football Matches Project";
+			productReference = 8B4749D3215656F50092C9DA /* Football Matches Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B4749CB215656F40092C9DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Developer;
+				TargetAttributes = {
+					8B4749D2215656F40092C9DA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8B4749CE215656F40092C9DA /* Build configuration list for PBXProject "Football Matches Project" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B4749CA215656F40092C9DA;
+			productRefGroup = 8B4749D4215656F50092C9DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B4749D2215656F40092C9DA /* Football Matches Project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B4749D1215656F40092C9DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4749E3215656F50092C9DA /* LaunchScreen.storyboard in Resources */,
+				8B4749E0215656F50092C9DA /* Assets.xcassets in Resources */,
+				8B4749DE215656F50092C9DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B4749CF215656F40092C9DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48DB19AA215BF2ED003A2BDE /* CompetitionTableStanding.m in Sources */,
+				4839232F215BF45E00FFB5EE /* StandingTableViewCell.m in Sources */,
+				481965EA215E425400993AF1 /* FavouritesManager.m in Sources */,
+				8B4749FB215686AD0092C9DA /* FootballMatchesAPI.m in Sources */,
+				8B4749E6215656F50092C9DA /* main.m in Sources */,
+				8B4749F8215681B60092C9DA /* FootballMatchesViewController.m in Sources */,
+				480E7561215913B000DDA4BC /* Match.m in Sources */,
+				8B4749D8215656F50092C9DA /* AppDelegate.m in Sources */,
+				481965EB215E59A200993AF1 /* Favourites.xcdatamodeld in Sources */,
+				48DB19A7215BE8DC003A2BDE /* CompetitionStandingsTableViewController.m in Sources */,
+				8B4749F521567E5C0092C9DA /* MatchTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8B4749DC215656F50092C9DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B4749DD215656F50092C9DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B4749E1215656F50092C9DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B4749E2215656F50092C9DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B4749E7215656F50092C9DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8B4749E8215656F50092C9DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B4749EA215656F50092C9DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Football Matches Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flag.Football-Matches-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B4749EB215656F50092C9DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Football Matches Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flag.Football-Matches-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B4749CE215656F40092C9DA /* Build configuration list for PBXProject "Football Matches Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B4749E7215656F50092C9DA /* Debug */,
+				8B4749E8215656F50092C9DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B4749E9215656F50092C9DA /* Build configuration list for PBXNativeTarget "Football Matches Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B4749EA215656F50092C9DA /* Debug */,
+				8B4749EB215656F50092C9DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		481965E5215E32D100993AF1 /* Favourites.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				481965E6215E32D100993AF1 /* Favourites.xcdatamodel */,
+			);
+			currentVersion = 481965E6215E32D100993AF1 /* Favourites.xcdatamodel */;
+			path = Favourites.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8B4749CB215656F40092C9DA /* Project object */;
+}
